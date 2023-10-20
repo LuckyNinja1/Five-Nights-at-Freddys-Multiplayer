@@ -1,3 +1,4 @@
+using QFSW.QC;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,5 +15,10 @@ public class ApplicationManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public static void LogToConsole(string text_, bool newLine_ = true)
+    {
+        QuantumConsole.Instance.LogToConsole(text_, newLine_);
     }
 }

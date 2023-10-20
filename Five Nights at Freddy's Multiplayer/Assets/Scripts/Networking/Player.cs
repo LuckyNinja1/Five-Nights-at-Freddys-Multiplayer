@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private string username;
+    //[SerializeField] private Character character;
 
-    // Update is called once per frame
-    void Update()
+    public void SetUsername(string username_)
     {
-        
+        username = username_;
     }
+    public string GetUsername() { return username; }
+    //public Character GetCharacter() { return character; }
 }
