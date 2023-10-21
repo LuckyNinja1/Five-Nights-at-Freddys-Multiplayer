@@ -17,8 +17,8 @@ public class ApplicationManager : MonoBehaviour
         
     }
 
-    public static void LogToConsole(string text_, bool newLine_ = true)
-    {
-        QuantumConsole.Instance.LogToConsole(text_, newLine_);
-    }
+    //public static void LogToConsole(string text_, bool newLine_ = true)
+    //{
+    //    QuantumConsole.Instance.LogToConsole(text_, newLine_);
+    //}
 }
